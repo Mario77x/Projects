@@ -1,0 +1,55 @@
+* {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+/*Navigation*/
+.navbar-inverse {
+	background-color: DarkSlateGrey;
+	border: none;
+}
+.navbar .nav > li > a {
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+}
+.navbar .nav > li > a:hover {
+	color: PaleVioletRed;
+}
+.navbar-toggle {
+	border: none;
+	outline: none;
+}
+
+/* Footer */
+#footer {
+	height: 80px;
+	background-color: DarkSlateGrey;
+	text-align: center;
+}
+
+#footer #toTop {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#footer a:link, #footer a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+	#footer {
+		float: bottom;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+
+}
+
+@media screen and (min-width: 768px) {
+	/*Navigation*/
+	.nav {
+		padding: 16px;
+	}
+}	

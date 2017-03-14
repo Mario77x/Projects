@@ -1,0 +1,102 @@
+#main {
+	height: calc(100vh - 80px);
+	padding-top: 80px;
+	margin: 0;
+	background-image: url("../images/background3.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+
+#webshopHeader {
+	height: 40px;
+}
+
+#titleTop {
+	margin: 15px;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: left;
+}
+
+#webshopHeader .col-xs-4 {
+	padding: 10px;
+	padding-right: 20px;
+	text-align: right;
+}
+
+
+#webshopMain .article {
+	border: solid teal;
+	text-align: center;
+	margin: 0 auto;
+	width: 150px;
+}
+#webshopMain .box {
+	background-color: white;
+	height: 210px;
+}
+#webshopMain .box .name {
+	padding-top: 10px;
+	color: teal;
+	font-weight: bold;
+}
+#webshopMain .box .pricetag {
+	padding: 10px;
+	color: teal;
+}
+#webshopMain .infoLink {
+	background-color: teal;
+	padding: 10px;
+	height: 50px;
+}
+#webshopMain .info {
+	background-color: teal;
+	margin-top: -210px;
+	margin-bottom: 0px;
+	padding: 10px;
+	height: 210px;
+	color: white;
+	font-size: 10px;
+	display: none;
+}
+
+@media screen and (max-width: 480px) {
+	#main {
+		height: 800px;
+		padding-top: 80px;
+		margin: 0;
+		background-image: url("../images/background3.jpg");
+		background-size: cover;
+		background-position: center center;
+	}
+
+	#webshopMain .article {
+		margin: 20px auto;
+	}
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+	#main {
+		height: 800px;
+		padding-top: 80px;
+		margin: 0;
+		background-image: url("../images/background3.jpg");
+		background-size: cover;
+		background-position: center center;
+	}
+
+	#webshopMain .article {
+		margin: 20px auto;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#toTop {
+		display: none;
+	}
+	#toLinks {
+		padding-top: 20px;
+	}
+}	

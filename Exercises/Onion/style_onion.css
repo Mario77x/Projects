@@ -1,0 +1,26 @@
+body {
+	font-family: "Georgia";
+}
+
+h1 {
+	color: #014a01;
+}
+
+p {
+	line-height: 19px;
+}
+
+.headline {
+	text-align: center;
+}
+
+#link {
+	text-transform: uppercase;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}

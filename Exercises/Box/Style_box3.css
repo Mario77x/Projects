@@ -1,0 +1,41 @@
+html {
+	font-family: "Calibri";
+}
+
+h1 {
+	color: blue;
+	width: 290px;
+	border-color: orange;
+	border-style: solid;
+	border-width: 5px;
+	padding: 20px 20px;
+	margin: 0 auto;
+	float: center;
+}
+
+.image-gallery03 {
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 40px;
+    float: left;
+}
+
+.image-gallery04 {
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 40px;
+	float: right;
+}
+
+#text {
+	margin: 40px;
+	display: block;
+	float: auto;
+}
+
+.boldtext {
+	background-color: orange;
+	border: 2px dotted red;
+	color: blue;
+	display: inline-block;
+}
