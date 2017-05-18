@@ -1,37 +1,75 @@
-<!-- *Final project*
-
-The final project is your chance to apply what you've learned about web development in this class and build a project you can show your peers, instructors, and perhaps even potential employers.
-
-Use all of the combined skills you've learned to make a project that will be your first shot at a portfolio piece.
-
-You should try using Git + Github, to track issues, suggest feature enhancements and ideas, and iterate over your in-progress software. 
-Keep track of your progress using Git. 
-Make at least 6-10 commits as your project progresses. 
-You don't need to make a commit for every single minor change, but instead for each set of changes that adds to your website, or "feature". Also a commit before almost any code is written, your "initial commit". 
-This isn't a requirement, but it's good practice to use version control when working on any project.
-
-
-The requirements are:
-- Create a proposal for your project and have it approved by Nick
-- Make it responsive! Have a desktop version and a mobile version at the very least. If you have time try and make a tablet version.
-- Add at least one type of jQuery function to every page of your site.
-- Make the code clean! Keep your HTML, CSS and JavaScript properly indented. -->
-
-
 <!DOCTYPE html>
 
 <html>
 
 <head>
+
 	<title>Home | Mario Savi</title>
-	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="cookies.min.js"></script>
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<script type="text/javascript" src="script.js"></script>
-	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>	
+	<script rel="stylesheet" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script type="text/javascript" src="script/cookies.min.js"></script>
+	<script type="text/javascript" src="script/script.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+
+
 </head>
+
 
 <body>
 
+<!-- NAVIGATION BAR -->
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">					
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html">
+	            	<img src="images/icon_home.png">
+	           	</a>
+				<a class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+					<img src="images/icon_hamb-menu.png">
+				</a>
+			</div>			    
+			<div class="collapse navbar-collapse" id="menu">
+			    <ul class="nav navbar-nav navbar-right">
+				    <li><a href="experience.html"> experience </a></li>
+				    <li><a href="blog.html"> blog </a></li>
+				    <li><a href="contact.html"> contact </a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+<!-- GENERAL CONTENT -->
+
+	<div class="container-fluid">
+
+			<!-- NAME & PROFESSION -->			
+
+			<div class="row" id="header">
+				<div>
+					<h1 class="title">Mario Savi</h1>
+					<h2 class="title2">E-commerce Content Specialist</h2>
+				</div>
+			</div>
+
+
+			<!-- PERSONAL INTRO  -->
+
+			<div class="row" id="intro">
+				<div>
+					<p>"I'm a team player, solution-oriented and data-driven professional in the web content, content marketing and product management areas. I studied Communication and have almost 6 years experience at Booking.com. I'm currently taking a Web Development course.</p>
+
+					<p>My current aim is to find a job that allows me to mix digital marketing, product content and product management."</p>
+				</div>
+			</div>
+
+	</div>
+
 </body>
+
 </html>
